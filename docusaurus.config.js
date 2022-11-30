@@ -56,20 +56,8 @@ const config = {
           alt: 'RRStudio',
           src: 'img/studio.png',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
       },
+/*
       footer: {
         style: 'dark',
         links: [
@@ -115,6 +103,7 @@ const config = {
         ],
         //copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
+*/
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

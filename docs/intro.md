@@ -9,6 +9,19 @@ Rec Room Studio is a Unity Editor Package that extends the off-the-shelf editor,
 
 That means the creation tools you use in Rec Room Studio are the same Unity Editor tools that professional Unity developers use to build games and apps.
 
+### Resources
+If you’re not familiar with Unity, or need a refresher, here are a few helpful resources:
+
+
+[Unity Manual - Editor interface](https://docs.unity3d.com/Manual/UsingTheEditor.html)
+
+[Unity Manual - Importing Assets](https://docs.unity3d.com/Manual/ImportingAssets.html)
+
+[Unity Manual - Graphics](https://docs.unity3d.com/Manual/Graphics.html)
+
+[Unity Universal Render Pipeline Documentation](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@10.9/manual/index.html)
+
+
 ### What you'll need
 
 - [Unity](https://unity.com/download) version 2020.3.33f1
