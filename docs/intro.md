@@ -1,47 +1,36 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Rec Room Studio is a Unity Editor Package that extends the off-the-shelf editor, available for free at unity3d.com, to support building and publishing Rec Room content (rooms for now, inventions and avatar items in the future!)
 
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+That means the creation tools you use in Rec Room Studio are the same Unity Editor tools that professional Unity developers use to build games and apps.
 
 ### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- [Unity](https://unity.com/download) version 2020.3.33f1
+  - When installing Unity, you are recommended to use the Unity Hub for managing your projects.
+- [Standalone PC Rec Room client](https://rec.net/download) This comes with the Rec Room Studio installer
 
-## Generate a new site
+## Initial Setup
 
-Generate a new Docusaurus site using the **classic template**.
+ Download the Rec Room Studio Installer from rec.net and run it
 
-The classic template will automatically be added to your project after you run the command:
+ Once the Installer is finished, open the Rec Room Studio Project
+ - Select RecRoomStudioProject from the list of projects in Unity Hub
+ - Wait for Unity to import the project, this might take a few minutes
+ ![Unity](/img/unityload.png)
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### Logging in
+- Click Rec Room Studio > Rec Room Studio to open the Rec Room Studio Window (if it isn’t already open)
+  - Click Sign in to automatically open a new tab in your browser pointed at auth.rec.net
+    ![Logginin](/img/login.png)
+    - Click “Yes, Allow” on the Rec Room Studio is requesting your permission web page.
+  - Return to Unity and verify that your Rec Room Account shows up in the Rec Room Account Window
+  ![Account](/img/account.png)
+  You can now close the Rec Room Account Window and Rec Room Studio Welcome Screen.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+#### That’s it! Rec Room Studio is now installed and you’re ready to start building the next great room!
