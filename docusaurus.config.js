@@ -51,7 +51,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'RRStudio',
+        title: 'Rec Room Studio',
         logo: {
           alt: 'RRStudio',
           src: 'img/studio.png',
