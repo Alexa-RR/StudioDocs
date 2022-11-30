@@ -5,7 +5,7 @@ slug: /
 
 # Introduction
 
-Rec Room Studio is a Unity Editor Package that extends the off-the-shelf editor, available for free at unity3d.com, to support building and publishing Rec Room content (rooms for now, inventions and avatar items in the future!)
+Rec Room Studio is a Unity Editor Package that extends the off-the-shelf editor, available for free at [unity.com](https://unity.com), to support building and publishing Rec Room content (rooms for now, inventions and avatar items in the future!)
 
 That means the creation tools you use in Rec Room Studio are the same Unity Editor tools that professional Unity developers use to build games and apps.
 
@@ -32,7 +32,7 @@ If you’re not familiar with Unity, or need a refresher, here are a few helpful
 
  Download the Rec Room Studio Installer from rec.net and run it
 
- Once the Installer is finished, open the Rec Room Studio Project
+  Once the Installer is finished, open the Rec Room Studio Project
  - Select RecRoomStudioProject from the list of projects in Unity Hub
  - Wait for Unity to import the project, this might take a few minutes
  ![Unity](/img/unityload.png)
