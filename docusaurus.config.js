@@ -46,13 +46,13 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    colormode: {
-      respectPrefersColorScheme: true,
-      disableSwitch: false
 
-    },
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colormode: {
+        respectPrefersColorScheme: true,
+        disableSwitch: false
+      },
       navbar: {
         title: 'Rec Room Studio',
         logo: {
