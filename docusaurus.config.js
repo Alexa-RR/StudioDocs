@@ -51,6 +51,14 @@ const config = {
       respectPrefersColorScheme: true,
       disableSwitch: false
     },
+    algolia: {
+      // The application ID provided by Algolia
+      appId: 'EQMKW1PT9X',
+
+      // Public API key: it is safe to commit it
+      apiKey: '4fc9aef2d878bd15e24ee67424654558',
+
+      indexName: 'alexagirl',
     navbar: {
       title: 'Rec Room Studio',
       logo: {
