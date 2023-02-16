@@ -18,4 +18,4 @@ jobs:
         env:
           APPLICATION_ID: ${{ secrets.ALGOLIA_APPLICATION_ID }}
           API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-          CONFIG: '{"index_name": "docs","start_urls": ["https://docs.alexagirl.studio"],"sitemap_urls": ["https://docs.alexagirl.studio/sitemap.xml"]}'
+          CONFIG: '{"index_name": "Studio","start_urls": ["https://docs.alexagirl.studio/"],"sitemap_urls": ["https://docs.alexagirl.studio/sitemap.xml"],"sitemap_alternate_links": true,"stop_urls": [],"selectors": {"lvl1": "header h1","lvl2": "article h2","lvl3": "article h3","lvl4": "article h4","lvl5": "article h5, article td:first-child","lvl6": "article h6","text": "article p, article li, article td:last-child"},"strip_chars": " .,;:#","custom_settings": {"separatorsToIndex": "_","attributesForFaceting": ["language","version","type","docusaurus_tag"],"attributesToRetrieve": ["hierarchy","content","anchor","url","url_without_anchor","type"]}}'
