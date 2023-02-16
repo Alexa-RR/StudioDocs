@@ -45,22 +45,25 @@ const config = {
     ],
   ],
 
-  themeConfig:
+  themeConfig: {
+    colormode: {
+      defaultMode: 'light',
+      respectPrefersColorScheme: true,
+      disableSwitch: false
+    },
+    navbar: {
+      title: 'Rec Room Studio',
+      logo: {
+        alt: 'RRStudio',
+        src: 'img/studio.png',
+      },
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
 
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      colormode: {
-        respectPrefersColorScheme: true,
-        disableSwitch: false
-      },
-      navbar: {
-        title: 'Rec Room Studio',
-        logo: {
-          alt: 'RRStudio',
-          src: 'img/studio.png',
-        },
-      },
-/*
+    /*
       footer: {
         style: 'dark',
         links: [
@@ -107,11 +110,12 @@ const config = {
         //copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
 */
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
+
+  }
+      
+      
+
+      
 };
 
 module.exports = config;
