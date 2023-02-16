@@ -1,0 +1,19 @@
+name: Scrap website
+
+on: [push]
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read # to fetch code (actions/checkout)
+
+jobs:
+  - name: DocSearch Scraper Action
+  # You may pin to the exact commit or the version.
+  # uses: signcl/docsearch-scraper-action@504242b8a087c976da66eaad64a95d98ff90dab5
+  uses: signcl/docsearch-scraper-action@v1.0.1
+  env:
+    APPLICATION_ID: ${{ secrets.ALGOLIA_APPLICATION_ID }}
+    API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+    CONFIG: '{"index_name": "docs","start_urls": ["https://docs.alexagirl.studio"],"sitemap_urls": ["https://docs.alexagirl.studio/sitemap.xml"]}'
