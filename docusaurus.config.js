@@ -59,6 +59,7 @@ const config = {
       apiKey: '4fc9aef2d878bd15e24ee67424654558',
 
       indexName: 'alexagirl',
+    },
     navbar: {
       title: 'Rec Room Studio',
       logo: {
