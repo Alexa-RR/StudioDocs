@@ -52,10 +52,8 @@ Select Add Component>Audio Source
   - Additional Mixers you have added that will output to the Ambience, Music, or Sounds Master
   ![output](/img/output.png)
 
-:::info
 When adding effects, you can add them either directly to the Ambience, Music, or
 Sounds Master Mixers, or to additional Mixers you make in the project.
-:::
 
 :::tip
 It is recommended to add scene or area effects to custom Mixers you make

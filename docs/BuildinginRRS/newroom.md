@@ -6,6 +6,7 @@ sidebar_position: 1
 
 Unfortunately you can’t currently perform every step of the “new room creation process” directly in Rec Room Studio. You need to have a room you own with a subroom based on the Maker Room template to be able to link your Rec Room Studio scene. If you don’t already have such a room, first create and name a new room (or subroom of a room you own) based on the basic Maker Room template in-game.
 
+## Creating a room using the Rec Room client
 - Launch the Rec Room client, sign into your Rec Room Account
   - This needs to be the same account you used to sign into Rec Room Studio
 
@@ -13,15 +14,18 @@ Unfortunately you can’t currently perform every step of the “new room creati
   - Open the watch menu, select Create, then choose the Maker Room template from the Base Rooms tab
   - Name your new room and the game will take you to it
 
-- Create, save, and open a room in Rec Room Studio
+## Opening a room in Studio
   - In the Rec Room Studio Window, click “Open Room”
   <img src="/img/newroom.png" alt="drawing" width="200"/>
-  - Select the Room and Subroom to download from the list (subrooms are listed alphabetically) and select “Open Room.” If you have not opened this room in Rec Room Studio on your device before, it will download the latest files from the rec.net server into a folder called ```Assets/Rooms/[roomname]```. If your local files are out of date with the server’s it will ask you to use the “Download” button to get the latest from the server.
-
+  - Select the Room and Subroom to download from the list (subrooms are listed alphabetically) and select “Open Room.” 
+  
     <img src="/img/selectroom.png" alt="drawing" width="200"/>
     
-    ![newroom2](/img/selectroom2.png)
 
+:::note
+If you have not opened this room in Rec Room Studio on your device before, it will download the latest files from the rec.net server into a folder called ```Assets/Rooms/[roomname]```. If your local files are out of date with the server’s it will ask you to use the “Download” button to get the latest from the server.
+:::
+### Selcting Scence
   - Make sure your scene is open in the Editor before continuing. You can tell which scene is open by looking at the name of the scene in the Unity Hierarchy Window
     ![selectscene](/img/selectscene.png)
 

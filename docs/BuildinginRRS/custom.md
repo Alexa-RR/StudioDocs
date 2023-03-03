@@ -3,18 +3,23 @@ sidebar_position: 3
 ---
 
 # Creating Custom Rec Room Studio Objects
+
+## Create a GameObject in Unity
 Create a fancy new GameObject! It can have an arbitrarily deep hierarchy with as many children, grand-children, great-grand-children, etc as you want. These prefabs can contain all kinds of assets, like meshes with materials, animations, physics joints, colliders.
 
 For example: here’s a palm tree GameObject made from a model imported from Blender. There are some “coconuts” parented to the tree.
 ![tree](/img/tree.png)
 
+## Convert that GameObject into a Unity Prefab
 Select your object in the scene and drag it into a directory in the Unity Project Window to convert it into a prefab
 ![prefab](/img/prefab.png)
 
+###  Open your Unity Prefab in Prefab Edit Mode
 Select your prefab in the Unity Project Window - this will make your prefab show up in the Inspector.
 ![openprefab](/img/openprefab.png)
 Click Open Prefab in the Inspector.
 
+### Add the RecRoomObject component to the root of your new prefab
 Use the Add Component button in the Inspector to add the RecRoomObject component
 ![Component](/img/component.png)
 

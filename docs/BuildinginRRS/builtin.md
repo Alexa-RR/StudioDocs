@@ -20,16 +20,15 @@ You can also search for these built-in objects (if you know the name) by setting
 ![Search](/img/assets.png)
 :::
 
-Drag a Rec Room Object prefab into the scene view or hierarchy view
-
-:::info
-As soon as you drag a Rec Room Object prefab into the scene it will appear in the Maker Pen Scene hierarchy (the orange-colored one). Rec Room Objects will never appear in the Unity scene hierarchy (white and blue)
+## Draging a Rec Room Object prefab into the scene view or hierarchy view
+As soon as you drag a Rec Room Object prefab into the scene it will appear in the Maker Pen Scene hierarchy (the orange-colored one).
 
 ![sceneview](/img/sceneview.png)
+:::info
+Rec Room Objects will never appear in the Unity scene hierarchy (white and blue)
 :::
 
-:::tip
+
 Rec Room Objects can be transformed and configured in the Inspector Window. Just select the object in the Scene View or Hierarchy Window to open that object in the Inspector Window.
 
 ![Inspector](/img/inspector.png)
-:::
