@@ -38,7 +38,9 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/alexa-RR/StudioDocs/tree/main',
-          routeBasePath: '/',
+          routeBasePath: '/docs',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -47,86 +49,101 @@ const config = {
     ],
   ],
 
-  themeConfig: {
-    colormode: {
-      defaultMode: 'light',
-      respectPrefersColorScheme: true,
-      disableSwitch: false
-    },
-    algolia: {
-      // The application ID provided by Algolia
-      appId: 'EQMKW1PT9X',
+  themeConfig: 
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */({
 
-      // Public API key: it is safe to commit it
-      apiKey: '4fc9aef2d878bd15e24ee67424654558',
-
-      indexName: 'alexagirl',
-    },
-    navbar: {
-      title: 'Rec Room Studio',
-      logo: {
-        alt: 'RRStudio',
-        src: 'img/studio.png',
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
       },
-    },
-    prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
-    },
-
-    /*
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        //copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'EQMKW1PT9X',
+  
+        // Public API key: it is safe to commit it
+        apiKey: '4fc9aef2d878bd15e24ee67424654558',
+  
+        indexName: 'alexagirl',
       },
-*/
+      navbar: {
+        title: 'Rec Room Studio',
+        logo: {
+          alt: 'RRStudio',
+          src: 'img/RRSlogo.svg',
+        },
+        items: [
+          // Left
+          {
+            type: 'doc',
+            position: 'left',
+            docId: 'intro',
+            label: 'Docs',
+          },
+          // Right 
+          {
+            href: 'https://github.com/Alexa-RR/studiodocs',
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
+          },
+        ]
+      },
+      prism: {
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
+      },
+  
+      /*
+        footer: {
+          style: 'dark',
+          links: [
+            {
+              title: 'Docs',
+              items: [
+                {
+                  label: 'Tutorial',
+                  to: '/',
+                },
+              ],
+            },
+            {
+              title: 'Community',
+              items: [
+                {
+                  label: 'Stack Overflow',
+                  href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                },
+                {
+                  label: 'Discord',
+                  href: 'https://discordapp.com/invite/docusaurus',
+                },
+                {
+                  label: 'Twitter',
+                  href: 'https://twitter.com/docusaurus',
+                },
+              ],
+            },
+            {
+              title: 'More',
+              items: [
+                {
+                  label: 'Blog',
+                  to: '/blog',
+                },
+                {
+                  label: 'GitHub',
+                  href: 'https://github.com/facebook/docusaurus',
+                },
+              ],
+            },
+          ],
+          //copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        },
+  */
 
+    }),
   }
-      
-      
-
-      
-};
+    
 
 module.exports = config;

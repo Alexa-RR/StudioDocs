@@ -1,0 +1,3 @@
+
+# Local build
+“Local” refers to playing your Rec Room Studio room within the Rec Room Client you installed with Rec Room Studio- on the same computer you’re running Unity! When the play mode is set to Local, clicking on the Play button will launch Rec Room on your computer. Then it will send you to the latest version of your room on your computer. When in Local Play mode, select “Send to Studio” to save changes you make with the Maker Pen to the room.

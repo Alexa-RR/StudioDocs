@@ -30,9 +30,41 @@ If you’re not familiar with Unity, or need a refresher, here are a few helpful
 
 ## Initial Setup
 
- Download the Rec Room Studio Installer from rec.net and run it
+### Rec Room Studio Installer
+In your internet browser on your PC, go to https://rec.net/settings/recroomstudio
 
-  Once the Installer is finished, open the Rec Room Studio Project
+:::note
+make sure you’re signed into your Rec Room account you submitted to the beta program survey first
+:::
+
+Click the Download Rec Room Studio button and open `RecRoomStudioInstaller.exe` when downloaded
+![DownloadWindow](/img/DarkMode/RRSDownloadDark.png#gh-dark-mode-only)
+![DownloadWindow](/img/LightMode/RRSDownloadLight.png#gh-light-mode-only)
+
+:::note
+When you open the app for the first time, you will need to agree to the terms of service
+![Tos](/img/tos.png)
+:::
+
+
+Select your desired install path and and click on `Install Now`:
+![InstallNow](/img/installnow.png)
+:::info
+The Rec Room Studio installer will download and install Unity Hub, Unity, and Rec Room for PC. It might take awhile… depending on your internet connaction 
+:::
+
+
+### Creating a new Project
+Once the Installer is finished, open the Rec Room Studio Project by clicking on `Create New Project`
+
+
+![NewProject](/img/CreateProject.png)
+
+:::tip 
+When promted to select a folder for the project, make sure to create a new one
+![SelectFolder](/img/DarkMode/SelectFolderDark.png#gh-dark-mode-only)
+![SelectFolder](/img/LightMode/SelectFolderLight.png#gh-light-mode-only)
+:::
  - Select RecRoomStudioProject from the list of projects in Unity Hub
  - Wait for Unity to import the project, this might take a few minutes
  ![Unity](/img/unityload.png)
