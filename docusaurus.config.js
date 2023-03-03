@@ -39,7 +39,7 @@ const config = {
           editUrl:
             'https://github.com/alexa-RR/StudioDocs/tree/main',
           routeBasePath: '/docs',
-          showLastUpdateAuthor: false,
+          showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
         theme: {
