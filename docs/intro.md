@@ -26,7 +26,11 @@ If you’re not familiar with Unity, or need a refresher, here are a few helpful
 
 - [Unity](https://unity.com/download) version 2020.3.33f1
   - When installing Unity, you are recommended to use the Unity Hub for managing your projects.
-- [Standalone PC Rec Room client](https://rec.net/download) This comes with the Rec Room Studio installer
+- [Standalone PC Rec Room client](https://rec.net/settings/recroomstudio) This comes with the Rec Room Studio installer
+
+:::info
+The Rec Room Studio installer will download and install Unity Hub, Unity, and Rec Room for PC. It might take awhile depending on your internet connaction 
+:::
 
 ## Initial Setup
 
@@ -38,9 +42,9 @@ make sure you’re signed into your Rec Room account you submitted to the beta p
 :::
 
 Click the Download Rec Room Studio button and open `RecRoomStudioInstaller.exe` when downloaded
+
 ![DownloadWindow](/img/DarkMode/RRSDownloadDark.png#gh-dark-mode-only)
 ![DownloadWindow](/img/LightMode/RRSDownloadLight.png#gh-light-mode-only)
-
 :::note
 When you open the app for the first time, you will need to agree to the terms of service
 ![Tos](/img/tos.png)
@@ -49,9 +53,7 @@ When you open the app for the first time, you will need to agree to the terms of
 
 Select your desired install path and and click on `Install Now`:
 ![InstallNow](/img/installnow.png)
-:::info
-The Rec Room Studio installer will download and install Unity Hub, Unity, and Rec Room for PC. It might take awhile… depending on your internet connaction 
-:::
+
 
 
 ### Creating a new Project
@@ -70,9 +72,9 @@ When promted to select a folder for the project, make sure to create a new one
  ![Unity](/img/unityload.png)
 
 ### Logging in
-- Click Rec Room Studio > Rec Room Studio to open the Rec Room Studio Window (if it isn’t already open)
+- Click `Rec Room Studio` > `Rec Room Studio` to open the Rec Room Studio Window (if it isn’t already open)
   - Click Sign in to automatically open a new tab in your browser pointed at auth.rec.net
-    ![Logginin](/img/login.png)
+    ![Logginin](/img/DarkMode/NotSignedIn.png)
     - Click “Yes, Allow” on the Rec Room Studio is requesting your permission web page.
   - Return to Unity and verify that your Rec Room Account shows up in the Rec Room Account Window
   ![Account](/img/account.png)
