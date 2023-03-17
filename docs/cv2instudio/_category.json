@@ -1,10 +1,10 @@
 {
-    "label": "Using CV2 in Studio",
-    "position": 3,
-    "link": {
-      "type": "doc",
-      "id": "cv2instudio/index"
-    }
+  "label": "Using CV2 in Studio",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "cv2instudio/index"
+  }
     
   }
   
