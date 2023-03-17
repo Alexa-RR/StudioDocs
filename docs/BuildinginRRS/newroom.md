@@ -16,10 +16,12 @@ Unfortunately you can’t currently perform every step of the “new room creati
 
 ## Opening a room in Studio
   - In the Rec Room Studio Window, click “Open Room”
-  <img src="/img/newroom.png" alt="drawing" width="200"/>
-  - Select the Room and Subroom to download from the list (subrooms are listed alphabetically) and select “Open Room.” 
   
-    <img src="/img/selectroom.png" alt="drawing" width="200"/>
+    ![RRSMenu](/img/DarkMode/RRSMenu.png)
+    
+  - Select the Room and Subroom to download from the list (subrooms are listed alphabetically) and select “Open Room.” 
+    
+    ![RoomSelction](/img/DarkMode/RoomSelction.png)
     
 
 :::note

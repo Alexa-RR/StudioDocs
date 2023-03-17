@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Audio Tools
+# Audio
 
 To utilize the existing audio channels in Rec Room, there are special Mixers generated in Rec Room Studio projects.
 
@@ -31,19 +31,13 @@ Select the GameObject menu or right-click in the hierarchy, then select Audio>Au
 
 <details>
 
-<summary>Adding Audio Source components to Unity Objects in the scene</summary>
+<summary>Adding Audio Source components to Unity Objects in the scene or Rec Room Studio Objects via the Prefab Editor</summary>
 
 Select Add Component>Audio Source
-<img src="/img/addaudio2.png" alt="drawing" width="200"/>
 
-</details>
+![SelectFolder](/img/DarkMode/AudioMenu.png#gh-dark-mode-only)
+![SelectFolder](/img/LightMode/AudioMenu.png#gh-light-mode-only)
 
-<details>
-
-<summary>Adding Audio Source components to Rec Room Studio Objects via the Prefab Editor</summary>
-
-Select Add Component>Audio Source
-<img src="/img/addaudio2.png" alt="drawing" width="200"/>
 
 </details>
 

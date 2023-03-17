@@ -47,8 +47,8 @@ make sure you’re signed into your Rec Room account you submitted to the beta p
 
 Click the Download Rec Room Studio button and open `RecRoomStudioInstaller.exe` when downloaded
 
-![DownloadWindow](/img/DarkMode/RRSDownloadDark.png#gh-dark-mode-only)
-![DownloadWindow](/img/LightMode/RRSDownloadLight.png#gh-light-mode-only)
+![DownloadWindow](/img/DarkMode/RRSDownload.png#gh-dark-mode-only)
+![DownloadWindow](/img/LightMode/RRSDownload.png#gh-light-mode-only)
 :::note
 When you open the app for the first time, you will need to agree to the terms of service
 ![Tos](/img/tos.png)
@@ -68,8 +68,8 @@ Once the Installer is finished, open the Rec Room Studio Project by clicking on 
 
 :::tip 
 When promted to select a folder for the project, make sure to create a new one
-![SelectFolder](/img/DarkMode/SelectFolderDark.png#gh-dark-mode-only)
-![SelectFolder](/img/LightMode/SelectFolderLight.png#gh-light-mode-only)
+![SelectFolder](/img/DarkMode/SelectFolder.png#gh-dark-mode-only)
+![SelectFolder](/img/LightMode/SelectFolder.png#gh-light-mode-only)
 :::
  - Select RecRoomStudioProject from the list of projects in Unity Hub
  - Wait for Unity to import the project, this might take a few minutes
@@ -81,6 +81,6 @@ When promted to select a folder for the project, make sure to create a new one
     ![Logginin](/img/DarkMode/NotSignedIn.png)
     - Click “Yes, Allow” on the Rec Room Studio is requesting your permission web page.
   - Return to Unity and verify that your Rec Room Account shows up in the Rec Room Account Window
-  ![Account](/img/account.png)
+    ![Account](/img/DarkMode/Account.png)
 
 #### That’s it! Rec Room Studio is now installed and you’re ready to start building the next great room!

@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'StudioDocs',
+  title: 'The Studio Manual',
   tagline: 'Documantion for Rec Room Studio',
   url: 'https://rrstudio.pages.dev',
   baseUrl: '/',
