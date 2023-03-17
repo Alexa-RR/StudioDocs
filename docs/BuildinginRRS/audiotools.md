@@ -31,6 +31,27 @@ Select the GameObject menu or right-click in the hierarchy, then select Audio>Au
 
 <details>
 
+<summary>Adding Audio files to play them using the CV2 Audio Player</summary>
+
+In the hierarchy, select the object `AudioClipRegistry`
+![AudioClipRegistry](/img/DarkMode/AudioClipGameObject.png#gh-dark-mode-only)
+![AudioClipRegistry](/img/LightMode/AudioClipGameObject.png#gh-light-mode-only)
+Then Click on `Add Audio Clip` and select the clips you would like to import to the room
+![AudioClipRegistry](/img/DarkMode/AudioClip.png#gh-dark-mode-only)
+![AudioClipRegistry](/img/LightMode/AudioClip.png#gh-light-mode-only)
+
+When Logging into the room, add a cv2 chip called `Studio Audio Constent`
+![StudioChip](/img/StudioAudio.png)
+
+Use the configure tool to select the audio clip
+![ConfigureTool](/img/SelectAudio.png)
+
+**Now you can connect the chip to a CV2 Audio Player!**
+
+</details>
+
+<details>
+
 <summary>Adding Audio Source components to Unity Objects in the scene or Rec Room Studio Objects via the Prefab Editor</summary>
 
 Select Add Component>Audio Source
