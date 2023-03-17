@@ -33,7 +33,7 @@ If you’re not familiar with Unity, or need a refresher, here are a few helpful
 :::info
 The Rec Room Studio installer will download and install Unity Hub, Unity, and Rec Room for PC. It might take awhile depending on your internet connaction 
 
-If you already have **Unity 2020.3.33f1** installed, you may not have the **Windows Build Support (IL2CPP)** module required to run local tests of Rec Room Studio projects, as it is not installed by default. for more info on how to install the module refer to [Local Build](/SavingRooms/localbuild)
+If you already have **Unity 2020.3.33f1** installed, you may not have the **Windows Build Support (IL2CPP)** module required to run local tests of Rec Room Studio projects, as it is not installed by default. for more info on how to install the module refer to [Local Build](./SavingRooms/localbuild/#installing-il2cpp)
 :::
 
 ## Initial Setup
