@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-#Credits
+# Credits
 
 Huge credits goes to the Rec Room Studio team where I pulled most of the information that builds this doc <3
 
