@@ -36,7 +36,9 @@ Select the GameObject menu or right-click in the hierarchy, then select Audio>Au
 In the hierarchy, select the object `AudioClipRegistry`
 ![AudioClipRegistry](/img/DarkMode/AudioClipGameObject.png#gh-dark-mode-only)
 ![AudioClipRegistry](/img/LightMode/AudioClipGameObject.png#gh-light-mode-only)
+
 Then Click on `Add Audio Clip` and select the clips you would like to import to the room
+
 ![AudioClipRegistry](/img/DarkMode/AudioClip.png#gh-dark-mode-only)
 ![AudioClipRegistry](/img/LightMode/AudioClip.png#gh-light-mode-only)
 
