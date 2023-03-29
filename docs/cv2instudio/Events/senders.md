@@ -5,8 +5,6 @@ description: Sending data from Rec Room to Unity Objects
 
 # Senders
 
-CV2 circuits in Rec Room can interact with objects on Prefabs in Rec Room Studio Rooms via Unity Events. Some properties of Rec Room Studio Objects (such as enabled) can be controlled by Unity Events, and additional objects can be added to prefabs that can be controlled with Unity Events.
-
 :::note
 Studio Objects are different from Objects, so circuits that interpret info from Rec Room Objects will not work with custom Rec Room Studio Objects. However, tags on Studio Objects function well.
 :::
