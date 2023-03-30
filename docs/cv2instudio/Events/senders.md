@@ -3,15 +3,13 @@ sidebar_position: 1
 description: Sending data from Rec Room to Unity Objects
 ---
 
-# CV2 Events
-
-CV2 circuits in Rec Room can interact with objects on Prefabs in Rec Room Studio Rooms via Unity Events. Some properties of Rec Room Studio Objects (such as enabled) can be controlled by Unity Events, and additional objects can be added to prefabs that can be controlled with Unity Events.
+# Senders
 
 :::note
 Studio Objects are different from Objects, so circuits that interpret info from Rec Room Objects will not work with custom Rec Room Studio Objects. However, tags on Studio Objects function well.
 :::
 
-First, make sure the object in your room’s scene has been made into a Rec Room Studio Object, see [Creating Custom Rec Room Studio Objects](../BuildinginRRS/custom.md)
+First, make sure the object in your room’s scene has been made into a Rec Room Studio Object, see [Creating Custom Rec Room Studio Objects](../../BuildinginRRS/custom.md)
 
 From the Rec Room Object script, add a Unity Event to do the action you want with that Rec Room Studio Object. Give your Unity Event a name, and remember it for later
 
