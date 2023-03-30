@@ -29,6 +29,13 @@ Go into the root prefab and click on `Remake Object Boards For All Prefab Instan
 
 ![RemakeObjectboard](/img/DarkMode/RemakeObjectboard.png)
 
-Now head over to Testing your room
+Now hop ingame to test your Receiver! (Take a look at [Testing Your Room](../../SavingRooms) for more info!)
+
+
 ## In Game
 
+When in game, find the UI with the object board attached to it
+
+![IngameEvent](/img/InGameEvent.png)
+
+**Now when you press the button, the output exec port `OnClick` (your chosen event name) in the circuit board will run!**
