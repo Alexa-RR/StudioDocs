@@ -30,5 +30,3 @@ for more information about Post Processing Effects, check out the [Unity Documen
 
 
 **After you add your effects and build / upload, you will have Post Processing in your room!**
-
-![PostProcessingExample]
