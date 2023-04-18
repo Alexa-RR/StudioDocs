@@ -1,4 +1,4 @@
-# Rec Room Studio - The "✨Circuit Editor✨" Edition
+# The "✨Circuit Editor✨" Edition
 
 #
 ## Rec Room Studio now has a Circuit Editor!
