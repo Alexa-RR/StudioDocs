@@ -22,10 +22,7 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
+
 
   presets: [
     [
@@ -41,6 +38,15 @@ const config = {
           routeBasePath: '/docs',
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
+        },
+        blog: {
+          path: 'Updates',
+          routeBasePath: 'Updates',
+          showReadingTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/alexa-RR/StudioDocs/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -79,6 +85,11 @@ const config = {
             position: 'left',
             docId: 'intro',
             label: 'Docs',
+          },
+          {
+            to: '/Updates',
+            label: 'Updates',
+            position: 'left'
           },
           // Right 
           {
