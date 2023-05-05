@@ -1,7 +1,7 @@
-Rec Room Studio - The “VR HUD Canvas” Edition
+# The “VR HUD Canvas” Edition
 
 
-# VR HUD Support
+## VR HUD Support
 
 VR is now supported when using a Screen Space canvas. Here’s a guide on how to get it working.
 
