@@ -1,6 +1,6 @@
 # The "✨Circuit Editor✨" Edition
 
-#
+
 ## Rec Room Studio now has a Circuit Editor!
 
 Here's how to use our new Circuit Editor inside of Rec Room Studio.
