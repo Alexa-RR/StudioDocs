@@ -9,7 +9,7 @@ Huge credits goes to the Rec Room Studio dev team where I pulled most of the inf
 
 Maintained by Alexa:
 
-Discord - `Alexa#8010`
+Discord - `alexa_girl`
 
 Rec.net - [@Alexa](https://rec.net/user/Alexa)
 
