@@ -30,8 +30,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from Alexa <3`}
-      description="Documentation for Rec Room Studio">
+      title={`Documentation for Rec Room Studio`}
+      description="Hello From Alexa <3">
       <HomepageHeader />
       <main>
       </main>
