@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from Alexa <3`}
-      description="Documantion for Rec Room Studio">
+      description="Documentation for Rec Room Studio">
       <HomepageHeader />
       <main>
       </main>
