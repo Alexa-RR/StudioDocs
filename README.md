@@ -1,6 +1,6 @@
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This work is licensed under a
@@ -15,6 +15,14 @@ This work is licensed under a
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://rec.net/user/Alexa"><img src="https://avatars.githubusercontent.com/u/53471801?v=4?s=100" width="100px;" alt="Alexa"/><br /><sub><b>Alexa</b></sub></a><br /><a href="https://github.com/Alexa-RR/StudioDocs/commits?author=Alexa-RR" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/projects-rr"><img src="https://avatars.githubusercontent.com/u/131033778?v=4?s=100" width="100px;" alt="Projects"/><br /><sub><b>Projects</b></sub></a><br /><a href="https://github.com/Alexa-RR/StudioDocs/commits?author=projects-rr" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
