@@ -15,6 +15,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "projects-rr",
+      "name": "Projects",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131033778?v=4",
+      "profile": "https://github.com/projects-rr",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
