@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "Alexa-RR",
+      "name": "Alexa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53471801?v=4",
+      "profile": "https://rec.net/user/Alexa",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "StudioDocs",
+  "projectOwner": "Alexa-RR"
+}
