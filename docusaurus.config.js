@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'The Community RR Studio Manual',
-  tagline: 'Documantion for Rec Room Studio',
+  tagline: 'Documentation for Rec Room Studio',
   url: 'https://docs.alexagirl.studio',
   baseUrl: '/',
   onBrokenLinks: 'throw',
