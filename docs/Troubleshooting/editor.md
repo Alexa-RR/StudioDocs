@@ -6,7 +6,7 @@ sidebar_position: 2
 ## Studio Editor
 
 ### The project you are opening contains compilation errors
-Your studio project is probobly corrupted:
+Your studio project is probably corrupted:
 1. go to the folder where you saved your studio project, it should look like this:
 ![studiofolder](/img/studiofolder.png)
 
