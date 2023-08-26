@@ -19,6 +19,7 @@ This work is licensed under a
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://rec.net/user/Alexa"><img src="https://avatars.githubusercontent.com/u/53471801?v=4?s=100" width="100px;" alt="Alexa"/><br /><sub><b>Alexa</b></sub></a><br /><a href="https://github.com/Alexa-RR/StudioDocs/commits?author=Alexa-RR" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/projects-rr"><img src="https://avatars.githubusercontent.com/u/131033778?v=4?s=100" width="100px;" alt="Projects"/><br /><sub><b>Projects</b></sub></a><br /><a href="https://github.com/Alexa-RR/StudioDocs/commits?author=projects-rr" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
@@ -76,3 +77,25 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://rec.net/user/Alexa"><img src="https://avatars.githubusercontent.com/u/53471801?v=4?s=100" width="100px;" alt="Alexa"/><br /><sub><b>Alexa</b></sub></a><br /><a href="https://github.com/Alexa-RR/StudioDocs/commits?author=Alexa-RR" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
