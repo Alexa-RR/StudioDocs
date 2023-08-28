@@ -7,7 +7,17 @@
   opacity: 0.6;
 }
 
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
 
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
 .header-github-link::before {
   content: '';
   width: 24px;
