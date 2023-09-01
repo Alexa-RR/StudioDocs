@@ -8,9 +8,14 @@ sidebar_position: 1
 ### Rec Room Studio Installer is stuck on `Installing Unity 2020.3.33f1`
 1. Close the installer
 2. Click on [unityhub://2020.3.33f1/915a7af8b0d5](unityhub://2020.3.33f1/915a7af8b0d5)
-3. Make sure to select the 
 
-This will now install the correct unity version for studio in unity hub
+:::info
+Make sure to the `Windows Build Support (IL2CPP)` module
+![InstallIL2CPP](/img/LightMode/DownloadIL2CPP.png#gh-light-mode-only)
+![InstallIL2CPP](/img/DarkMode/DownloadIL2CPP.png#gh-dark-mode-only)
+:::
+
+**Now wait for the correct unity version for studio to be installed**
 
 ## Launching Rec Room Studio
 
