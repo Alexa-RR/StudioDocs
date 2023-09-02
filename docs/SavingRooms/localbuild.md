@@ -20,7 +20,7 @@ A context menu will appear, from which you should select the Add Modules option.
 ![ContextMenuUnity](/img/DarkMode/UnityHubContext.png#gh-dark-mode-only)
 :::info
 If the **Add Modules** option does not appear in this context menu, then you have to manually install the Windows IL2CPP package
-<ButtonLink title="Download IL2CPP Installer" link="https://download.unity3d.com/download_unity/915a7af8b0d5/TargetSupportInstaller/UnitySetup-Windows-IL2CPP-Support-for-Editor-2020.3.33f1.exe"/>
+<ButtonLink title="Download IL2CPP Installer" link="https://download.unity3d.com/download_unity/204d6dc9ae1c/TargetSupportInstaller/UnitySetup-Windows-IL2CPP-Support-for-Editor-2021.3.29f1.exe"/>
 :::
 
 A list of additional modules that can be installed for Unity should appear.  Scroll down the list until you locate the module Windows Build Support (IL2CPP).  If this module is already installed, the word Installed will appear to the right of the module name, and you can exit the Add modules… dialog.  Otherwise there will be an empty check box to the left of the module name.  Check this box (as shown in the screenshot below), then click the blue Continue button and wait for the module installation to complete.
