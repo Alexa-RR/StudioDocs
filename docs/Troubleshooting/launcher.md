@@ -5,9 +5,9 @@ sidebar_position: 1
 
 ## Studio installer
 
-### Rec Room Studio Installer is stuck on `Installing Unity 2020.3.33f1`
+### Rec Room Studio Installer is stuck on `Installing Unity 2021.3.29f1`
 1. Close the installer
-2. Click on [unityhub://2020.3.33f1/915a7af8b0d5](unityhub://2020.3.33f1/915a7af8b0d5)
+2. Click on [unityhub://2021.3.29f1/204d6dc9ae1c](unityhub://2021.3.29f1/204d6dc9ae1c)
 
 :::info
 Make sure to install the `Windows Build Support (IL2CPP)` module for local builds to work, see more [here](/docs/SavingRooms/localbuild#installing-il2cpp)
