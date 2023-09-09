@@ -20,7 +20,7 @@ You can also search for these built-in objects (if you know the name) by setting
 ![Search](/img/assets.png)
 :::
 
-## Draging a Rec Room Object prefab into the scene view or hierarchy view
+## Dragging a Rec Room Object prefab into the scene view or hierarchy view
 As soon as you drag a Rec Room Object prefab into the scene it will appear in the Maker Pen Scene hierarchy (the orange-colored one).
 
 ![sceneview](/img/sceneview.png)
