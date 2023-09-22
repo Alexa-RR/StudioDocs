@@ -9,12 +9,6 @@ sidebar_position: 1
 1. Close the installer
 2. Click on [unityhub://2020.3.33f1/915a7af8b0d5](unityhub://2020.3.33f1/915a7af8b0d5)
 
-:::info
-Make sure to install the `Windows Build Support (IL2CPP)` module for local builds to work, see more [here](/docs/SavingRooms/localbuild#installing-il2cpp)
-![InstallIL2CPP](/img/LightMode/DownloadIL2CPP.png#gh-light-mode-only)
-![InstallIL2CPP](/img/DarkMode/DownloadIL2CPP.png#gh-dark-mode-only)
-:::
-
 **Now wait for the correct unity version for studio to be installed**
 
 ## Launching Rec Room Studio
