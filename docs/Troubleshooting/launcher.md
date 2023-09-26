@@ -5,9 +5,9 @@ sidebar_position: 1
 
 ## Studio installer
 
-### Rec Room Studio Installer is stuck on `Installing Unity 2020.3.33f1`
+### Rec Room Studio Installer is stuck on `Installing Unity 2021.3.29f1`
 1. Close the installer
-2. Click on [unityhub://2020.3.33f1/915a7af8b0d5](unityhub://2020.3.33f1/915a7af8b0d5)
+2. Click on [unityhub://2021.3.29f1/204d6dc9ae1c](unityhub://2021.3.29f1/204d6dc9ae1c)
 
 **Now wait for the correct unity version for studio to be installed**
 
@@ -39,7 +39,7 @@ You can try to create a sample Unity project to see if the problem is with Unity
 
 1. Launch Unity Hub.
 2. Under `Projects``, press the `New Project`
-3. If you have multiple Unity versions installed, make sure the correct Unity version is selected. `2020.3.33f1`.
+3. If you have multiple Unity versions installed, make sure the correct Unity version is selected. `2021.3.29f1`.
 4. Select the `3D Sample Scene (URP)` template and create your sample project.
 
 If the sample project has issues loading, the issue is with Unity itself.  You can try re-installing Unity, or seeking help on the [Unity forums](https://forum.unity.com/)
