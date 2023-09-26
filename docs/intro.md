@@ -24,7 +24,7 @@ If you’re not familiar with Unity, or need a refresher, here are a few helpful
 
 ### What you'll need
 
-- [Unity](https://unity.com/download) version 2020.3.33f1
+- [Unity](https://unity.com/download) version 2021.3.19f1
   - When installing Unity, you are recommended to use the Unity Hub for managing your projects.
 - [Standalone PC Rec Room client](https://rec.net/settings/recroomstudio) This comes with the Rec Room Studio installer
 
@@ -56,7 +56,9 @@ When you open the app for the first time, you will need to agree to the terms of
 Select your desired install path and and click on `Install Now`:
 ![InstallNow](/img/installnow.png)
 
-
+:::info
+If you have any trouble installing unity using the rec room studio installer, please refer [here](https://learn.unity.com/tutorial/install-the-unity-hub-and-editor)
+:::
 
 ### Creating a new Project
 Once the Installer is finished, open the Rec Room Studio Project by clicking on `Create New Project`
