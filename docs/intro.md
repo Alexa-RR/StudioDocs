@@ -26,7 +26,7 @@ If you’re not familiar with Unity, or need a refresher, here are a few helpful
 
 - [Unity](https://unity.com/download) version 2021.3.19f1
   - When installing Unity, you are recommended to use the Unity Hub for managing your projects.
-- [Standalone PC Rec Room client](https://rec.net/settings/recroomstudio) This comes with the Rec Room Studio installer
+- PC Client [Steam](https://store.steampowered.com/app/471710/Rec_Room/) or [Standalone](https://rec.net/download)
 
 
 
