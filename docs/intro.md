@@ -21,12 +21,14 @@ If you’re not familiar with Unity, or need a refresher, here are a few helpful
 
 [Unity Universal Render Pipeline Documentation](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@10.9/manual/index.html)
 
-
 ### What you'll need
 
-- [Unity](https://unity.com/download) version 2021.3.19f1
-  - When installing Unity, you are recommended to use the Unity Hub for managing your projects.
-- [Standalone PC Rec Room client](https://rec.net/settings/recroomstudio) This comes with the Rec Room Studio installer
+- A Windows PC running Windows 10 or newer
+- [Unity Hub](https://unity.com/download)
+- [Unity Version 2021.3.29f1](unityhub://2021.3.29f1/204d6dc9ae1c)
+  - When installing Unity, you are recommended to use the link above which will launch Unity Hub too the installer for proper version.
+  - If you need to manually install, you can find the download [here](https://unity.com/releases/editor/whats-new/2021.3.29)
+- Rec Room Client [Standalone PC](https://rec.net/settings/recroomstudio) or [Steam](https://store.steampowered.com/app/471710/Rec_Room/) version
 
 
 
