@@ -28,7 +28,7 @@ If you’re not familiar with Unity, or need a refresher, here are a few helpful
 - [Unity Version 2021.3.29f1](unityhub://2021.3.29f1/204d6dc9ae1c)
   - When installing Unity, you are recommended to use the link above which will launch Unity Hub too the installer for proper version.
   - If you need to manually install, you can find the download [here](https://unity.com/releases/editor/whats-new/2021.3.29)
-- Rec Room Client [Standalone PC](https://rec.net/settings/recroomstudio) or [Steam](https://store.steampowered.com/app/471710/Rec_Room/) version
+- Rec Room Client [Standalone PC](https://rec.net/download) or [Steam](https://store.steampowered.com/app/471710/Rec_Room/) version
 
 
 
