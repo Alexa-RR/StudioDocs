@@ -24,14 +24,15 @@ If you’re not familiar with Unity, or need a refresher, here are a few helpful
 
 ### What you'll need
 
-- [Unity](https://unity.com/download) version 2021.3.19f1
+- [Unity](https://unity.com/download) version 2021.3.29f1
+  - Unity will be installed by the Rec Room Studio Installer
   - When installing Unity, you are recommended to use the Unity Hub for managing your projects.
 - Rec Room PC Client [Steam](https://store.steampowered.com/app/471710/Rec_Room/) or [Standalone](https://rec.net/download)
 
 
 
 :::info
-The Rec Room Studio installer will download and install Unity Hub, Unity, and Rec Room for PC. It might take awhile depending on your internet connaction 
+The Rec Room Studio installer will download and install Unity Hub and Unity. It might take awhile depending on your internet connaction 
 :::
 
 ## Initial Setup
