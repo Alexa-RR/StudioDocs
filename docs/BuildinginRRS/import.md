@@ -26,8 +26,5 @@ Rec Room Studio is built on top of Unity’s Universal Render Pipeline. All Shad
 ## URP
 If the Materials of your imported assets aren’t loading Base textures (albedo), use the Render Pipeline tool to set them correctly.
 
-Go to Edit > Render Pipeline > Universal Render Pipeline > Upgrade Project Materials to UniversalRP Materials
+Go to Edit > Rendering > Materials > Convert Selected Built-in Materials to URP
 ![urp](/img/urp.png)
-:::caution
-This tool doesn’t work for all materials if a prefab has more than 1
-:::
