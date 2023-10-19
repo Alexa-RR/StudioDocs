@@ -29,3 +29,27 @@ Rec Room does not support baked global illumination.  To disable it open the lig
 Rec Room only supports linear fog mode.  To change the fog mode open the lighting panel (Window -> Rendering -> Lighting) and select the `Environment` tab, and under Fog, change the mode to `Linear`
 
 ![Fog mode setting](validation-fog-mode.png)
+
+### Cameras are only supported on Rec Room Objects. Please remove or disable the component on game object.{#cameras-rrobject}
+
+Rec Room Studio supports cameras, but in order to prevent them from interfering with the main player camera, they must be part of a Rec Room Object prefab.  See [Creating Custom Rec Room Studio Objects](/docs/BuildinginRRS/custom) for details of how to create a Rec Room Object.
+
+### Cameras must have an output texture set. Please set the output texture for the camera.{#cameras-rendertarget}
+
+Cameras in Rec Room Studio must have a render target set to prevent them from interfering with the main player camera.  
+
+Create a RenderTexture asset and assign it as the Camera's Output Texture. 
+
+:::caution
+ Keep the resolution as low as feasible for performance.  We recommend no larger than 1024x1024, and smaller is better.
+:::
+
+![Output ](validation-camera-rendertexture.png)
+### Camera property '{property}' must be set to '{value}' on prefab.{#cameras-properties}
+
+Certain camera properties must be set to specific values for performance and/or stability purposes.
+
+| Property       | Required Value  |
+| ---------      | --------------  |
+| Stop NaNs      | false           |
+| Anti-aliasing  | No Anti-aliasing|
