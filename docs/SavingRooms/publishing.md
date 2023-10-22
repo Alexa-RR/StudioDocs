@@ -32,15 +32,12 @@ Rec Room Studio Rooms are required to go through a moderation process before the
 ![alt_text](/img/publishing-moderationpopup.png "image_tooltip")
 
 4. This Automatic Moderation review generally takes no more than than 5 minutes to complete. If your room has a lot of subrooms, the check may take longer. The results will be sent to you as a notification. Success will look like this:
-
+   1. If you see the following notification, your room is now public. 
 ![alt_text](/img/publishing-moderationnotification.png "image_tooltip")
 
-   1. If you see this notification, your room is now public. 
 5. If your room failed moderation you will receive a notification stating: _Some assets in roomname.subroomname have been flagged by the AI for potential moderation concerns. See the roomname.subroomname details page for more information_. 
-   1. From your room details page you see a list of assets that failed automatic moderation
-
 ![alt_text](/img/publishing-roomwarning.png "image_tooltip")
-
+   1. Your room details page shows a list of assets that failed automatic moderation
    1. From here you have two options: 
       1. Change or remove the assets highlighted by the automated review and start the process again (goto: Step 1)
       2. Request a Manual Review (goto: Step 6)
