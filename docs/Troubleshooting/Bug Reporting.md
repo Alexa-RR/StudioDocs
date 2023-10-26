@@ -13,11 +13,11 @@ It is important to submit a bug report quickly after a bug is encounted. The lon
 
 1. From the 'Rec Room Studio' menu, select 'Report a bug'
 
-	![Bug Reporter Menu](BugReporter-menu.png)
+	![Bug Reporter Menu](/img/BugReporter-menu.png)
 
 2. You are now presented with the Report a bug panel. It looks like so:
 
-	![Bug Reporter Panel](BugReporter-panel.png) 
+	![Bug Reporter Panel](/img/BugReporter-panel.png) 
 
 
 ### Report a bug fields
@@ -63,4 +63,4 @@ The bug submission tool will grab various UNITY logs from your machine. These lo
 
 When you have filled out the above information. Press **Submit Bug Report**  
 
-![Bug Reporter Submit](BugReporter-submit.png) 
+![Bug Reporter Submit](/img/BugReporter-submit.png) 
