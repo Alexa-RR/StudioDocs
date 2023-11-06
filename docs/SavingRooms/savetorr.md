@@ -13,6 +13,7 @@ Select the “Upload & Build” button from the Rec Room Studio window
 **Don’t close the Build This Room window until building has completed!**
 :::danger
 **Individual files must not exceed 100MB!**
+:::
 :::danger
 **Rec Room will compress your room to run smoothly on different platforms. It is recommended to keep the build size at 70MB or less, otherwise lower-end platforms may experience performance issues in your room, but the compressed room cannot exceed 128MB!**
 :::
