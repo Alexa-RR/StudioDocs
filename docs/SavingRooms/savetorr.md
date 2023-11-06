@@ -11,6 +11,7 @@ Select the “Upload & Build” button from the Rec Room Studio window
 
 :::danger
 **Don’t close the Build This Room window until building has completed!**
+:::
 :::danger
 **Individual files must not exceed 100MB!**
 :::
