@@ -64,3 +64,5 @@
   width: 1px;
   white-space: nowrap;
 }
+
+img[alt=image7] { width: 53%; }
