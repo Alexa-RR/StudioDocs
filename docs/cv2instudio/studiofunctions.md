@@ -2,11 +2,11 @@
 
  Use Studio Functions to build complex, reactive logic to empower Studio Props with custom Circuits chips.
 
-Summary
+## Summary
 
 Studio Functions are a Rec Room Studio feature that enables you to author custom chips that call GameObject and Component methods on your Rec Room Objects.  Studio Functions support a wider variety of data types and can call C# methods with any number of parameters.  Studio Functions can also forward the return values from C# methods to other chips in your room’s Circuit graph.  Want to locally set the Position and Rotation of your object? You now can! Most GameObject and Component methods and properties are supported, so if there’s one you’d like to know more about, you can look it up [here](https://docs.unity3d.com/ScriptReference/GameObject.html)
 
-Setting up a Studio Function
+## Setting up a Studio Function
 
 Select a Studio Prop in your scene (for more information on Studio Props see [Creating Custom Rec Room Studio Objects](/docs/BuildinginRRS/custom)). In the Unity Inspector tab you will see a new section titled Studio Functions. Prefabs created before the introduction of Studio Functions will see both UnityEvents and Studio Functions, but new prefabs will only see Studio Functions. Click the \[+\] button next to the functions search bar to add your first Studio Function.
 
