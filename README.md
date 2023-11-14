@@ -1,6 +1,6 @@
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This work is licensed under a
@@ -22,6 +22,7 @@ This work is licensed under a
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/projects-rr"><img src="https://avatars.githubusercontent.com/u/131033778?v=4?s=100" width="100px;" alt="Projects"/><br /><sub><b>Projects</b></sub></a><br /><a href="https://github.com/Alexa-RR/StudioDocs/commits?author=projects-rr" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/WolleyFreyrRR"><img src="https://avatars.githubusercontent.com/u/143228531?v=4?s=100" width="100px;" alt="WolleyFreyrRR"/><br /><sub><b>WolleyFreyrRR</b></sub></a><br /><a href="https://github.com/Alexa-RR/StudioDocs/commits?author=WolleyFreyrRR" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/techsideofficial"><img src="https://avatars.githubusercontent.com/u/68258126?v=4?s=100" width="100px;" alt="techsideofficial"/><br /><sub><b>techsideofficial</b></sub></a><br /><a href="https://github.com/Alexa-RR/StudioDocs/commits?author=techsideofficial" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/JayRecRoomOfficial"><img src="https://avatars.githubusercontent.com/u/143539637?v=4?s=100" width="100px;" alt="JayRecRoomOfficial"/><br /><sub><b>JayRecRoomOfficial</b></sub></a><br /><a href="https://github.com/Alexa-RR/StudioDocs/commits?author=JayRecRoomOfficial" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
