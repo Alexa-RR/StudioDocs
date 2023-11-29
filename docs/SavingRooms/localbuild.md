@@ -14,7 +14,7 @@ import ButtonLink from '@site/src/components/ButtonLink'
 If you want to try out your work, but you’re not ready to build your room and save your changes on RecNet, then you’ll want to use the “Play Room” options located within the Rec Room Studio menu.
 ![testing](/img/testing.png)
 :::note
-If Rec Room is not open, You will be promted to lanuch it.
+If Rec Room is not open, You will be prompted to launch it.
 
 To test in VR, Open the Rec Room Client in VR before building
 :::
