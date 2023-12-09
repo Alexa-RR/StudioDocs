@@ -4,23 +4,23 @@ sidebar_position: 1
 
 # Creating a New Room
 
-- Open the Rec Room Studio Menu, click on `Open Room`
+## Creating a room using Studio
+
+- Open the Rec Room Studio Menu, click on `Open a Room`
 
 
-  <img src="/img/DarkMode/Unity_QfaTS4MXYB.png"  width="50%" height="20%"/>
+<img src="/img/DarkMode/Unity_QfaTS4MXYB.png"  width="50%" height="20%"/>
 
 
+  - Choose a name for your room, click on `Create`
+    
 
-## Creating a room using the Rec Room client
-- Launch the Rec Room client, sign into your Rec Room Account
-  - This needs to be the same account you used to sign into Rec Room Studio
+  ![Create a room](/img/DarkMode/Unity_bNbQuNxFnq.gif)
 
-- Create a new room in the Rec Room client
-  - Open the watch menu, select Create, then choose the Maker Room template from the Base Rooms tab
-  - Name your new room and the game will take you to it
+
 
 ## Opening a room in Studio
-  - In the Rec Room Studio Window, click “Open Room”
+  - In the Rec Room Studio Window, then click “Open a Room”
   
     ![RRSMenu](/img/DarkMode/RRSMenu.png)
     
