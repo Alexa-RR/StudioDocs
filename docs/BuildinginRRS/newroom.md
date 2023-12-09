@@ -17,10 +17,22 @@ sidebar_position: 1
 
   ![Create a room](/img/DarkMode/Unity_bNbQuNxFnq.gif)
 
+### Creating a subroom
+- In the Rec Room Studio Window, click “Open a Room”
+
+- Under the subroom section, choose a name for your subroom, then click on create
+
+
+![Createasubroom](/img/DarkMode/Unity_POVbbh0lmY.gif)
+
+
+
+
+
 
 
 ## Opening a room in Studio
-  - In the Rec Room Studio Window, then click “Open a Room”
+  - In the Rec Room Studio Window, click “Open a Room”
   
     ![RRSMenu](/img/DarkMode/RRSMenu.png)
     
