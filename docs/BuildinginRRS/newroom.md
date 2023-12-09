@@ -4,7 +4,12 @@ sidebar_position: 1
 
 # Creating a New Room
 
-Unfortunately you can’t currently perform every step of the “new room creation process” directly in Rec Room Studio. You need to have a room you own with a subroom based on the Maker Room template to be able to link your Rec Room Studio scene. If you don’t already have such a room, first create and name a new room (or subroom of a room you own) based on the basic Maker Room template in-game.
+- Open the Rec Room Studio Menu, click on `Open Room`
+
+
+  <img src="/img/DarkMode/Unity_QfaTS4MXYB.png"  width="50%" height="20%"/>
+
+
 
 ## Creating a room using the Rec Room client
 - Launch the Rec Room client, sign into your Rec Room Account
@@ -30,7 +35,6 @@ If you have not opened this room in Rec Room Studio on your device before, it wi
 ### Selcting Scence
   - Make sure your scene is open in the Editor before continuing. You can tell which scene is open by looking at the name of the scene in the Unity Hierarchy Window
     ![selectscene](/img/selectscene.png)
-
 ## Make changes to the room
 
 Do all the usual Unity stuff –add 3D objects, terrain, audio, etc. There’s so many things you can do, and a few you can’t. Check the [Rec Room Studio Known Issues](https://docs.google.com/spreadsheets/d/1nHt6edlO5cwWq6D7iutzXKAyhiKQ5VdcNg8ZIvjbgeE/edit) list for details on specific tools.
