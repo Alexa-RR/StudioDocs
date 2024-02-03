@@ -6,6 +6,21 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
+var pickimage;
+
+function pick_image() {
+ console.log("picking image");
+ var x = Math.random(); 
+ if(x < 0.2) {
+     console.log('a');
+     pickimage = "/img/BlueNest_ad_long_meme.svg"
+     console.log(pickimage)
+ } else {
+     console.log('b');
+     pickimage = "/img/BlueNest_ad_long_serious.svg"
+     console.log(pickimage)
+ }
+};
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -28,26 +43,14 @@ function HomepageHeader() {
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
-  var pickimage = '/img/BlueNest_ad_long_meme.svg'
-   function pick_image() {
-    console.log("picking image");
-    var x = Math.random(); 
-    if(x < 0.2) {
-        console.log('a');
-        pickimage = "/img/BlueNest_ad_long_meme.svg"
-    } else {
-        console.log('b');
-        pickimage = "/img/BlueNest_ad_long_serious.svg"
-    }
-  };
   return (
     <Layout
-      title={`Documentation for Rec Room Studio`}
+      title={`Community run documentation for Rec Room Studio`}
       description="Hello From Alexa <3">
       <HomepageHeader />
       <main>
       <a href="https://bluenest.it" rel="noopener noreferrer" class='divbluenest' >
-        <img src={pickimage} class='bluenestimage' id='bluenestbiglogo' onLoad={pick_image()}/>
+        <img src={pickimage} class='bluenestimage' id='bluenestbiglogo'/>
       </a>
     
 
@@ -55,7 +58,7 @@ export default function Home() {
     </Layout>
   );
 }
-
+pick_image()
 // <HomepageFeatures />
 
 

@@ -20,7 +20,7 @@ const config = {
 
 
   title: 'The Community RR Studio Manual',
-  tagline: 'Documentation for Rec Room Studio',
+  tagline: 'Community run documentation for Rec Room Studio',
   url: 'https://docs.alexagirl.studio',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -91,7 +91,7 @@ const config = {
         indexName: 'alexagirl',
       },
       navbar: {
-        title: 'Rec Room Studio',
+        title: 'The Community RR Studio Manual',
         logo: {
           alt: 'RRStudio',
           src: 'img/RRSlogo.svg',
