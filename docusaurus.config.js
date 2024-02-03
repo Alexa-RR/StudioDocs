@@ -4,8 +4,21 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  scripts: [
+    {
+      src:
+        '/js/image-meme-roll.js',
+      async: true,
+    },
+
+  ],
+
+
+
   title: 'The Community RR Studio Manual',
   tagline: 'Documentation for Rec Room Studio',
   url: 'https://docs.alexagirl.studio',
@@ -113,53 +126,22 @@ const config = {
       /*
         footer: {
           style: 'dark',
-          links: [
-            {
-              title: 'Docs',
-              items: [
-                {
-                  label: 'Tutorial',
-                  to: '/',
-                },
-              ],
-            },
-            {
-              title: 'Community',
-              items: [
-                {
-                  label: 'Stack Overflow',
-                  href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                },
-                {
-                  label: 'Discord',
-                  href: 'https://discordapp.com/invite/docusaurus',
-                },
-                {
-                  label: 'Twitter',
-                  href: 'https://twitter.com/docusaurus',
-                },
-              ],
-            },
-            {
-              title: 'More',
-              items: [
-                {
-                  label: 'Blog',
-                  to: '/blog',
-                },
-                {
-                  label: 'GitHub',
-                  href: 'https://github.com/facebook/docusaurus',
-                },
-              ],
-            },
-          ],
+          logo: {
+            alt: 'BlueNest',
+            src: '/img/BlueNest_ad_long_meme.svg',
+            href: 'https://bluenest.it',
+            width: '100%',
+            height: '100%',
+          }
+        
+        
           //copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
         },
-  */
+
+      */
+        
+  
 
     }),
   }
-    
-
 module.exports = config;

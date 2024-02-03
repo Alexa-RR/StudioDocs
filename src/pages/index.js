@@ -28,15 +28,35 @@ function HomepageHeader() {
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
+  var pickimage = '/img/BlueNest_ad_long_meme.svg'
+   function pick_image() {
+    console.log("picking image");
+    var x = Math.random(); 
+    if(x < 0.2) {
+        console.log('a');
+        pickimage = "/img/BlueNest_ad_long_meme.svg"
+    } else {
+        console.log('b');
+        pickimage = "/img/BlueNest_ad_long_serious.svg"
+    }
+  };
+  pick_image()
   return (
     <Layout
       title={`Documentation for Rec Room Studio`}
       description="Hello From Alexa <3">
       <HomepageHeader />
       <main>
+      <a href="https://bluenest.it" rel="noopener noreferrer" class='divbluenest' >
+        <img src={pickimage} class='bluenestimage' id='bluenestbiglogo'/>
+      </a>
+    
+
       </main>
     </Layout>
   );
 }
 
 // <HomepageFeatures />
+
+
