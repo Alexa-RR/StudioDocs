@@ -40,7 +40,6 @@ export default function Home() {
         pickimage = "/img/BlueNest_ad_long_serious.svg"
     }
   };
-  pick_image()
   return (
     <Layout
       title={`Documentation for Rec Room Studio`}
@@ -48,7 +47,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
       <a href="https://bluenest.it" rel="noopener noreferrer" class='divbluenest' >
-        <img src={pickimage} class='bluenestimage' id='bluenestbiglogo'/>
+        <img src={pickimage} class='bluenestimage' id='bluenestbiglogo' onLoad={pick_image()}/>
       </a>
     
 
