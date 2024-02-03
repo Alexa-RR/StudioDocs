@@ -45,7 +45,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Community run documentation for Rec Room Studio`}
+      title={`Rec Room Studio`}
       description="Hello From Alexa <3">
       <HomepageHeader />
       <main>
