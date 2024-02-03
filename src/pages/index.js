@@ -6,7 +6,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
-var pickimage;
+var pickimage = "/img/BlueNest_ad_long_serious.svg";
 
 function pick_image() {
  console.log("picking image");
@@ -50,7 +50,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
       <a href="https://bluenest.it" rel="noopener noreferrer" class='divbluenest' >
-        <img src={pickimage} class='bluenestimage' id='bluenestbiglogo'/>
+        <img src={pickimage} class='bluenestimage' id='bluenestbiglogo' onLoad={pick_image()}/>
       </a>
     
 
@@ -58,7 +58,7 @@ export default function Home() {
     </Layout>
   );
 }
-pick_image()
+
 // <HomepageFeatures />
 
 
