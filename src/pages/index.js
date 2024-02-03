@@ -8,19 +8,20 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 var pickimage = "/img/BlueNest_ad_long_serious.svg";
 
-function pick_image() {
+
  console.log("picking image");
  var x = Math.random(); 
  if(x < 0.2) {
      console.log('a');
+     
      pickimage = "/img/BlueNest_ad_long_meme.svg"
      console.log(pickimage)
  } else {
      console.log('b');
      pickimage = "/img/BlueNest_ad_long_serious.svg"
+     
      console.log(pickimage)
- }
-};
+ };
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -50,7 +51,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
       <a href="https://bluenest.it" rel="noopener noreferrer" target="_blank" class='divbluenest' >
-        <img src={pickimage} class='bluenestimage' id='bluenestbiglogo' onLoad={pick_image()}/>
+        <img src={pickimage} class='bluenestimage'/>
       </a>
     
 
