@@ -6,6 +6,22 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
+var pickimage = "/img/BlueNest_ad_long_serious.svg";
+
+
+ console.log("picking image");
+ var x = Math.random(); 
+ if(x < 0.2) {
+     console.log('a');
+     
+     pickimage = "/img/BlueNest_ad_long_meme.svg"
+     console.log(pickimage)
+ } else {
+     console.log('b');
+     pickimage = "/img/BlueNest_ad_long_serious.svg"
+     
+     console.log(pickimage)
+ };
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -30,13 +46,20 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Documentation for Rec Room Studio`}
+      title={`Rec Room Studio`}
       description="Hello From Alexa <3">
       <HomepageHeader />
       <main>
+      <a href="https://bluenest.it/RecDev/" rel="noopener noreferrer" target="_blank" class='divbluenest' >
+        <img src={pickimage} class='bluenestimage'/>
+      </a>
+    
+
       </main>
     </Layout>
   );
 }
 
 // <HomepageFeatures />
+
+

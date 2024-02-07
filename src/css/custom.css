@@ -7,6 +7,24 @@
   opacity: 0.6;
 }
 
+.footerLogoLink_node_modules-\@docusaurus-theme-classic-lib-theme-Footer-Logo-styles-module {
+  opacity: 1!important;
+  width: 100%!important;
+  object-fit: cover;
+
+}
+
+.footer__logo {
+  width: 100%!important;
+  object-fit: cover;
+}
+
+.divbluenest {
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 .header-github-link::before {
   content: '';
@@ -66,3 +84,9 @@
 }
 
 img[alt=image7] { width: 53%; }
+
+
+.menu {
+  
+  
+}
