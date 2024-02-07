@@ -129,7 +129,7 @@ const config = {
           logo: {
             alt: 'BlueNest',
             src: '/img/BlueNest_ad_long_meme.svg',
-            href: 'https://bluenest.it',
+            href: 'https://bluenest.it/RecDev/',
             width: '100%',
             height: '100%',
           }
