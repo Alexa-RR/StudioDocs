@@ -61,9 +61,7 @@ Here is where you can alter the reflection and shininess of your liquid. A specu
 
 
 
-### Normal Maps 
-
-<a name="Normals2"> </a>
+### Normal Maps <a name="Normals2"> </a> <a name="Normals1"> </a>
 
 
 In this shader you get two normal map slots! You can control the strength, tiling, offset, angle, speed, and oscillation of each one to produce different effects. For example, for a river you could increase the speed and adjust the angle so it flows in the direction you want. Having two normal maps scrolling at different angles creates a nice layering effect!
