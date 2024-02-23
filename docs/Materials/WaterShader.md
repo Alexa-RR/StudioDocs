@@ -22,7 +22,7 @@ In this folder are prefabs and materials that you can add directly to your room 
 ![](waterexample.png)
 
 
-# Water shader settings
+## Water shader settings
 
 ### <a name="SurfaceInputs"> </a> Base texture
 
@@ -64,8 +64,9 @@ In this shader you get two normal map slots! You can control the strength, tilin
 
 ![](Normalmap.gif)
 
+<a name="Foam"> </a>
 
-### <a name="Foam"> </a> Foam
+### Foam
 
 Foam is what gathers at the edges of your water and is generated automatically based on these settings on high-memory platforms. Whatever texture you use is put through a threshold filter to make a cutout which gives you your foam shape! You have the same amount of control for this as the base color and normal maps. There are some foam specific settings:
 
@@ -81,8 +82,9 @@ Foam is what gathers at the edges of your water and is generated automatically b
 
 ![](foamdepth.gif)
 
+<a name="Waves"> </a>
 
-### <a name="Waves"> </a> Waves
+### Waves
 
 The water shader has the ability to have waves so you add movement to your water. Waves rely on the geometry of your mesh, so make sure you have enough vertices for a smooth wave. 
 
