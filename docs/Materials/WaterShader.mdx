@@ -1,4 +1,6 @@
 # Water Shader
+import ButtonLinkdownload from '@site/src/components/ButtonLinkdownload'
+
 Rec Room Studio has a water shader that can be used to make a myriad of fun different liquids that have depth, flow, and produce foam effects where they collide with objects. This section will explain how to use the water shader and include some tips and tricks.
 
 ![](Waterfall.gif)
@@ -13,16 +15,19 @@ In your Project window, right-click Create>Material to make a new Material. Sele
 
 ### Default Water Assets
 
-If your version of Rec Room Studio is older, you can download a package of premade prefabs and materials that use the water shader from here: <https://discord.com/channels/1032079737234915398/1202372332304212009>
+If your version of Rec Room Studio is older, you can download a package of premade prefabs and materials that use the water shader:
 
-Once you have the default water assets created by the Rec Room art team, you can find them in your Project window in the Assets\DefaultAssets\Prefabs\Environmental Assets\Water Examples
+<ButtonLinkdownload link="/Water_Shader_Example_Assets.unitypackage" title="Press here to download" filename="Water_Shader_Example_Assets.unitypackage" target="_blank" rel="noreferrer"/>
+
+
+Once you have the default water assets created by the Rec Room art team, you can find them in your Project window in the `Assets\DefaultAssets\Prefabs\Environmental Assets\Water Examples`
 
 In this folder are prefabs and materials that you can add directly to your room by dragging them from the Project window into your Scene or Hierarchy window.
 
 ![](waterexample.png)
 
 
-# Water shader settings
+## Water shader settings
 
 ### <a name="SurfaceInputs"> </a> Base texture
 
@@ -64,8 +69,9 @@ In this shader you get two normal map slots! You can control the strength, tilin
 
 ![](Normalmap.gif)
 
+<a name="Foam"> </a>
 
-### <a name="Foam"> </a> Foam
+### Foam
 
 Foam is what gathers at the edges of your water and is generated automatically based on these settings on high-memory platforms. Whatever texture you use is put through a threshold filter to make a cutout which gives you your foam shape! You have the same amount of control for this as the base color and normal maps. There are some foam specific settings:
 
@@ -81,8 +87,9 @@ Foam is what gathers at the edges of your water and is generated automatically b
 
 ![](foamdepth.gif)
 
+<a name="Waves"> </a>
 
-### <a name="Waves"> </a> Waves
+### Waves
 
 The water shader has the ability to have waves so you add movement to your water. Waves rely on the geometry of your mesh, so make sure you have enough vertices for a smooth wave. 
 
