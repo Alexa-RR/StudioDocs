@@ -34,7 +34,7 @@ const config = {
       "posthog-docusaurus",
       {
         apiKey: "phc_CziOkzbV6Wq0MLx43KYfiubxoXC9gWcQugdrqX7Xatk",
-        appUrl: "https://app.posthog.com", // optional
+        appUrl: "https://e.alexagirl.studio", // optional
         enableInDevelopment: true, // optional
         // other options are passed to posthog-js init as is
       },
