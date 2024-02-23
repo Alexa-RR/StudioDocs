@@ -29,6 +29,17 @@ const config = {
   // to replace "en" with "zh-Hans".
 
 
+  plugins: [
+    [
+      "posthog-docusaurus",
+      {
+        apiKey: "phc_CziOkzbV6Wq0MLx43KYfiubxoXC9gWcQugdrqX7Xatk",
+        appUrl: "https://app.posthog.com", // optional
+        enableInDevelopment: true, // optional
+        // other options are passed to posthog-js init as is
+      },
+    ],
+  ],
   presets: [
     [
       'classic',
