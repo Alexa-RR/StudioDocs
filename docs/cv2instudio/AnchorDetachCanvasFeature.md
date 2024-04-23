@@ -1,4 +1,4 @@
-# Anchor Canvas
+# Anchor/Detach Canvas Feature & Functions
 
 Use Anchor Canvas functions to create interactive UIs in your rooms with a polished experience for Screens and Mobile players.
 
