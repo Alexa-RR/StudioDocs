@@ -24,7 +24,8 @@ The Geometry Render tab displays information about objects in your room, includi
 
 ### Cameras
 
-The Camera tab gives you insight on any cameras present in your room. It tells you if a camera is enabled, what type of projection it has, its resolution, Field Of View angle, aspect, near/far values and its volume. Because a Camera adds an additional set of rendering that must be done, Cameras can cause performance issues in rooms that utilize them. It’s recommended to have as few cameras as possible, have only one camera render texture active at a time for the local player, and to keep resolution and volume minimal..Settings for the Camera can be changed by selecting the Camera in the Hierarchy and making adjustments in the Inspector window for that Camera. <https://docs.unity3d.com/Manual/class-Camera.html>
+The Camera tab gives you insight on any cameras present in your room. It tells you if a camera is enabled, what type of projection it has, its resolution, Field Of View angle, aspect, near/far values and its volume. Because a Camera adds an additional set of rendering that must be done, Cameras can cause performance issues in rooms that utilize them. It’s recommended to have as few cameras as possible, have only one camera render texture active at a time for the local player, and to keep resolution and volume minimal..Settings for the Camera can be changed by selecting the Camera in the Hierarchy and making adjustments in the Inspector window for that Camera. 
+https://docs.unity3d.com/Manual/class-Camera.html
 
 ![](PerformanceExplorer/Cameras.png)
 

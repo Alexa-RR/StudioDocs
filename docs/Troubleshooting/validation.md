@@ -45,7 +45,7 @@ Create a RenderTexture asset and assign it as the Camera's Output Texture.
 :::
 
 ![Output ](validation-camera-rendertexture.png)
-### Camera property '{property}' must be set to '{value}' on prefab.{#cameras-properties}
+### Camera property '\{property}' must be set to '\{value}' on prefab.\{#cameras-properties}
 
 Certain camera properties must be set to specific values for performance and/or stability purposes.
 
