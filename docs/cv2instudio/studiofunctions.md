@@ -1,18 +1,5 @@
 # Studio Functions
 
-
-:::danger
-
-
-
-"Studio Functions have been discovered to have been released in a state that can cause room Circuit corruption (which can be really bad). **The Studio Functions feature has been turned off for now. [Studio Events](/docs/cv2instudio/Events/senders) will return.**
-
-If you've already added Studio Functions to your room, you will still be able to edit those functions. New Studio Functions cannot be added. however, if you already have Studio Functions added to your Studio Props, please proceed with caution when editing: avoid renaming or deleting Studio Functions and double-check that all Studio Function chips in the subroom are set for accurate function calls before using "Play" or "Upload"."
-
-
-(Copied from the Studio Discord server)
-:::
-
  Use Studio Functions to build complex, reactive logic to empower Studio Props with custom Circuits chips.
 
 ## Summary
