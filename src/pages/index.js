@@ -49,13 +49,6 @@ export default function Home() {
       title={`Rec Room Studio`}
       description="Hello From Alexa <3">
       <HomepageHeader />
-      <main>
-      <a href="https://bluenest.it/RecDev/" rel="noopener noreferrer" target="_blank" class='divbluenest' >
-        <img src={pickimage} class='bluenestimage'/>
-      </a>
-    
-
-      </main>
     </Layout>
   );
 }
