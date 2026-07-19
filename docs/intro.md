@@ -5,7 +5,7 @@ slug: /
 
 # Introduction
 
-Rec Room Studio is a Unity Editor Package that extends the off-the-shelf editor, available for free at [unity.com](https://unity.com), to support building and publishing Rec Room content.
+Rec Room Studio was a Unity Editor Package that extends the off-the-shelf editor, available for free at [unity.com](https://unity.com), to support building and publishing Rec Room content.
 
 That means the creation tools you use in Rec Room Studio are the same Unity Editor tools that professional Unity developers use to build games and apps.
 
@@ -21,7 +21,7 @@ If you’re not familiar with Unity, or need a refresher, here are a few helpful
 
 [Unity Universal Render Pipeline Documentation](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@10.9/manual/index.html)
 
-### What you'll need
+### What you would need to run
 
 - A Windows PC running Windows 10 or newer
 - [Unity Hub](https://unity.com/download)
@@ -34,24 +34,24 @@ If you’re not familiar with Unity, or need a refresher, here are a few helpful
 
 
 :::info
-The Rec Room Studio installer will download and install Unity Hub, Unity, and Rec Room for PC. It might take awhile depending on your internet connaction 
+The Rec Room Studio installer will download and install Unity Hub, Unity, and Rec Room for PC. It might have taken awhile depending on your internet connaction 
 :::
 
 ## Initial Setup
 
 ### Rec Room Studio Installer
-In your internet browser on your PC, go to https://rec.net/settings/recroomstudio
+In your internet browser on your PC, you would go to https://rec.net/settings/recroomstudio
 
 :::note
-make sure you’re signed into your Rec Room account you submitted to the beta program survey first
+make sure you were signed into your Rec Room account you submitted to the beta program survey first
 :::
 
-Click the Download Rec Room Studio button and open `RecRoomStudioInstaller.exe` when downloaded
+ you would have Clicked the Download Rec Room Studio button and open `RecRoomStudioInstaller.exe` when downloaded
 
 ![DownloadWindow](/img/DarkMode/RRSDownload.png#gh-dark-mode-only)
 ![DownloadWindow](/img/LightMode/RRSDownload.png#gh-light-mode-only)
 :::note
-When you open the app for the first time, you will need to agree to the terms of service
+When you opened the app for the first time, you were needed to agree to the terms of service
 ![Tos](/img/tos.png)
 :::
 
